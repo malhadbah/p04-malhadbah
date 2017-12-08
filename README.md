@@ -33,15 +33,30 @@ Tic Tac Toe Game
   User Input/Output:
  
  
+ [main.cpp lines 40-41](/main.cpp)
+ asks the 'X' player for his name
+ 
+ [main.cpp lines 44-45](/main.cpp)
+ asks for 'O' player name
+ 
+ [main.cpp lines 146-158](/main.cpp)
+ shows the menu to the players and asks for selecion
+ 
+ [Board.cpp lines 133-163](/Board.cpp)
+ will print the board rows columns (design)
+ 
+ 
   Control flow constructs:
-    [main.cpp lines 53](/main.cpp)
-    it means if the user selected the first choice in the menu.
+  
+  
+   [main.cpp lines 53](/main.cpp)
+   it means if the user selected the first choice in the menu.
  
-     [main.cpp lines 58](/main.cpp)
-     if the user selected the second choice in the menu.
+   [main.cpp lines 58](/main.cpp)
+   if the user selected the second choice in the menu.
  
-     [main.cpp lines 63](/main.cpp)
-    if the winner is 'X' player
+   [main.cpp lines 63](/main.cpp)
+   if the winner is 'X' player
  
  [main.cpp lines 66](/main.cpp)
  if the winner is player 'O'
@@ -61,7 +76,25 @@ Tic Tac Toe Game
  
  [Board.cpp lines 61-101](/Board.cpp)
  conditions to check how the player will win by the game rules (vertically, horizontally, or diagonally).
+ 
+ 
   iteration:
+  
+  
+  [main.cpp lines 98](/main.cpp)
+  while loop and it will loop until the user enters a valid position
+  
+  [main.cpp lines 138](/main.cpp)
+  while lopp and it will read line by line until the end of file
+  
+  [main.cpp lines 176](/main.cpp)
+  will play a game while the game is not finished "needs to win or tie"
+  
+  [Board.cpp lines 169-178](/Board.cpp)
+  for loop to initialze a board with default value (empty cells)
+  
+  [Board.cpp lines 132-159](/Board.cpp)
+  for loop to print the board rows and cols
   
   
   Data Structure:
@@ -88,6 +121,13 @@ Tic Tac Toe Game
   File IO:
   
   
+  
+  
+  
   Class:
   
   
+  [Board.h lines 18](/Board.h)
+ created a Board class and added all the functions that are related to board in this class 
+ Board.h is the interface design
+ anything that doesn't need to be edited by the user's are in private.

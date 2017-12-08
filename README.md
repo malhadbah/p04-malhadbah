@@ -20,11 +20,11 @@ Tic Tac Toe Game
  
  What's Interesting ??
  
- 1- Be careful. I have added a new rule, which is that any player ( X or O ) can remove the symbol of the other player.
+  1- Be careful. I have added a new rule, which is that any player ( X or O ) can remove the symbol of the other player.
 
- 2- The last shape of the board will appear after the game.
+  2- The last shape of the board will appear after the game.
  
- 3- A file will show the players name and the scores.
+  3- A file will show the players name and the scores.
  
  Hint: two expert players might draw :)
  

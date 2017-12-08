@@ -1,4 +1,4 @@
-# p04-malhadbah
+  # p04-malhadbah
 
 Tic Tac Toe Game 
 
@@ -34,14 +34,14 @@ Tic Tac Toe Game
  
  
   Control flow constructs:
- [main.cpp lines 53](/main.cpp)
- it means if the user selected the first choice in the menu.
+    [main.cpp lines 53](/main.cpp)
+    it means if the user selected the first choice in the menu.
  
- [main.cpp lines 58](/main.cpp)
- if the user selected the second choice in the menu.
+     [main.cpp lines 58](/main.cpp)
+     if the user selected the second choice in the menu.
  
- [main.cpp lines 63](/main.cpp)
- if the winner is 'X' player
+     [main.cpp lines 63](/main.cpp)
+    if the winner is 'X' player
  
  [main.cpp lines 66](/main.cpp)
  if the winner is player 'O'

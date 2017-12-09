@@ -49,7 +49,8 @@ Tic Tac Toe Game
   Control flow constructs:
   
   
-   [main.cpp lines 53](/main.cpp)
+
+[main.cpp lines 53](/main.cpp)
    it means if the user selected the first choice in the menu.
  
    [main.cpp lines 58](/main.cpp)
@@ -65,7 +66,8 @@ Tic Tac Toe Game
  it means if the user selected any number or letter other than 1 2 or 3. the input is invalid.
  the menu will show again.
  
- [main.cpp lines 105-118](/main.cpp)
+
+[main.cpp lines 105-118](/main.cpp)
  else if to check the position of the user input if it's valid or not
  
  [main.cpp lines 134](/main.cpp)
@@ -79,6 +81,7 @@ Tic Tac Toe Game
  
  
   iteration:
+  
   
   
   [main.cpp lines 98](/main.cpp)
@@ -100,7 +103,13 @@ Tic Tac Toe Game
   Data Structure:
   
   
+  
+  
+  
   Functions:
+  
+  
+  
   [main.cpp lines 15](/main.cpp) 
   to read the position or where the player wants to put the symbol Ex: 11 or 22  (row,column)
   
@@ -117,11 +126,34 @@ Tic Tac Toe Game
   [main.cpp lines 27](/main.cpp)
   This function will save the game into file with names and scores.
   
+  [Board.cpp lines 3-19](/Board.cpp)
+ Constructors are functions without a return type, can't all it 
+ it implement itslef when you do create a constructor.
+ to initialize the board with empty cells,,copy the board from other object to this object
+ 
+  [Board.cpp lines 24-39](/Board.cpp)
+  The assignment operator (operator=) is used to copy values from one object to another already existing object.
+  the copy constructor initializes new objects, whereas the assignment operator replaces the contents of existing objects.
+  
+  [Board.cpp lines 42](/Board.cpp)
+  check if the baord is full, to know if the game should end or not. all cells need to be filled with symbols X or O
+  return true if board is full; otherwise, return false
+  
+  [Board.cpp lines 55](/Board.cpp)
+  to check all conditions of winning.. either horizontally, vertically or diagonally \/
+  
+  ,if 3 elements in the same row or column are player: win
+  ,if 3 elements in vertically are player: win
+  otherwise, return false
+  
+  [Board.cpp lines 109](/Board.cpp)
+  check if the cells are empty
   
   File IO:
   
   
-  
+   [main.cpp lines 214](/main.cpp) 
+   The name of x player and o player + the scores of both will be saved in txt file, after each game the new scores will be added.
   
   
   Class:

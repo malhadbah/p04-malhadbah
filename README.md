@@ -16,6 +16,7 @@ Tic Tac Toe Game
     4- 'x' player always goes first
  
  The Goal:
+ 
  The goal of Tic Tac Toe is to be the first player to get three in a row on a 3x3 grid.
  
  What's Interesting ??
@@ -100,12 +101,21 @@ Tic Tac Toe Game
   for loop to print the board rows and cols
   
   
-  Data Structure:
+
+Data Structure:
   
   
   
+   [Board.cpp lines 44-47](/Board.cpp) 
+  board is 2-D array (3x3 game board). To check if the cells are full
   
+   [Board.cpp lines 57-101](/Board.cpp) 
+  arrays to check if one of the player won.
   
+   [Board.cpp lines 171-174](/Board.cpp) 
+   array to intialize a board with empty cells "default
+   
+   
   Functions:
   
   
@@ -149,12 +159,18 @@ Tic Tac Toe Game
   [Board.cpp lines 109](/Board.cpp)
   check if the cells are empty
   
+  
   File IO:
+  
   
   
    [main.cpp lines 214](/main.cpp) 
    The name of x player and o player + the scores of both will be saved in txt file, after each game the new scores will be added.
   
+  
+   [main.cpp lines 127-142](/main.cpp) 
+   will display game history from the file.
+   
   
   Class:
   
